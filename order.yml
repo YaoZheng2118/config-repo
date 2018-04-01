@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://47.98.132.167/sell?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: YaoZheng@123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+  application:
+    name: product
+eureka:
+  client:
+    service-url:
+      defaultZone: http://106.14.199.179:8761/eureka
